@@ -1,0 +1,12 @@
+.elementor-add-new-section .elementor-add-weblify-button {
+    background-color: #ffffff;
+    margin-left: 5px;
+    background-image: url(../images/favicon.ico);
+    background-repeat: no-repeat;
+    background-position: 48% 50%;
+    background-size: 50px auto
+}
+
+.elementor-add-new-section .elementor-add-weblify-button i.fa {
+    visibility: hidden
+}

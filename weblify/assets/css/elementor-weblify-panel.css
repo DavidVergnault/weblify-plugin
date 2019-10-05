@@ -1,0 +1,31 @@
+.weblify-panel-scheme-items{
+	display: grid;
+    position: relative;
+    grid-template-columns: repeat(2,50px);
+    justify-content: space-around;
+}
+
+.wp-picker-container:not(.wp-picker-active) {
+    float: none !important;
+}
+
+#weblify-panel-logo-colors{
+	margin-top: 20px;
+}
+.weblify-panel-logo-dominant-color{
+	display: grid;
+    position: relative;
+    grid-template-columns: repeat(1,50px);
+	justify-content: space-around;
+}
+
+.weblify-panel-logo-palette-colors{
+	display: grid;
+    position: relative;
+    grid-template-columns: repeat(3,50px);
+	justify-content: space-around;
+}
+
+#weblify-panel-logo-colors .wp-picker-container.wp-picker-active .wp-picker-input-wrap{
+	padding-left: 0px;
+}

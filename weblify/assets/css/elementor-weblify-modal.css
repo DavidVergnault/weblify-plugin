@@ -1,0 +1,207 @@
+#weblify-elements-modal .dialog-message {
+    padding: 0;
+    text-align: left
+}
+
+#weblify-elements-modal .dialog-widget-content {
+    background: #efefef;
+    width: 95vw;
+    max-width: 1200px;
+    height: 800px;
+    max-height: 95vh;
+    overflow-y: auto;
+    overflow-x: hidden
+}
+
+#weblify-elements-modal .weblify_header {
+	height: 60px; 
+	width: 100%; 
+	background-color: #ffffff;
+	display: flex;
+	position: sticky;
+	top: 0;
+	z-index: 1;	
+}
+
+#weblify-elements-modal .weblify_header .weblify_header_tabs {
+	align-items: center;
+ 	text-align: center;
+	font-size: large;
+	height: 100%;
+	width: 100%;
+}
+
+#weblify-elements-modal .weblify_header .weblify_header_tabs button {
+	width: 18%; 
+	height: 100%;
+	float: left;
+	border: none;
+	outline: none;
+	cursor: pointer;
+	padding: 10px;
+	font-size: large;
+}
+
+#weblify-elements-modal .weblify_header .weblify_header_tabs .closeBtn {
+	width: 4%;
+	text-align: center;
+	float: right;
+	background: none;
+}
+
+#weblify-elements-modal .weblify_header .weblify_header_tabs button:hover {
+	background-color: #eee;
+}
+
+
+#weblify-elements-modal .weblify_content {
+	height: 85%; 
+	width: 100%; 
+}
+
+#weblify-elements-modal .weblify_content .weblify_content_panel .weblify_content_panel_filters{
+	margin: 20px auto;
+	padding: 20px;
+	align-content:center;
+}
+
+#weblify-elements-modal .weblify_content .weblify_content_panel .row .galleryFilters{
+	width:100%;
+	margin: 20px auto;
+	align-content:center;
+}
+
+#weblify-elements-modal .weblify_content .weblify_content_panel .row .galleryFilters .filterList{
+	display: flex;
+	justify-content:space-between;
+	margin: 0;
+}
+
+#weblify-elements-modal .weblify_content .weblify_content_panel .row .galleryFilters .filterListSearch{
+	display: flex;
+	justify-content:space-between;
+	margin: 0;
+	width: 40%;
+}
+
+#weblify-elements-modal .weblify_content .weblify_content_panel .row .galleryFilters .filterListSearch .filterListSearchInput{
+	width: 100%;
+}
+
+#weblify-elements-modal .weblify_content .weblify_content_panel .row .galleryFilters .filterList .filterListItem{
+	margin: 5px;
+}
+
+#weblify-elements-modal .weblify_content .weblify_content_panel .row .galleryFilters .violetBtn{
+	background-color: #ea155f;
+	color: #ffffff; 
+}
+
+#weblify-elements-modal .weblify_content .weblify_content_panel .templatesSectionContainer {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: flex-start;
+}
+
+#weblify-elements-modal .weblify_content .weblify_content_panel .templatesDemosContainer {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: flex-start;
+}
+
+#weblify-elements-modal .weblify_content .weblify_content_panel .templatesSubpagesContainer {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: flex-start;
+}
+
+#weblify-elements-modal .weblify_content .weblify_content_panel .templatesSubpagesContainer {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: flex-start;
+}
+
+#weblify-elements-modal .weblify_content .weblify_content_panel .weblify_content_panel_filters .col-md-12 .filterContainer{
+	display: flex;
+	margin-bottom: 0px;
+}
+
+#weblify-elements-modal .weblify_content .weblify_content_panel .weblify_content_panel_filters .col-md-12 .filterContainer li{
+	margin: 10px;
+	margin-left: 30px;
+}
+
+#weblify-elements-modal .weblify_content .weblify_content_panel .templatesDemosContainer .weblify-template .elementor-template-library-template-footer .elementor-template-library-template-name{
+	white-space: unset;
+}
+
+#weblify-elements-modal .weblify_content #fullimage .unsplashWebsiteLink{
+	position: absolute;
+	bottom: 20px;
+	left: 20px;
+}
+
+#weblify-elements-modal .weblify_content #fullimage .photographerLink{
+	position: absolute;
+	bottom: 20px;
+	right: 20px;
+}
+
+#weblify-elements-modal .weblify_content #fullimage .weblify_download_image{
+  	position: absolute;
+	bottom: 20px;
+} 
+
+#weblify-elements-modal .weblify_content #fullimage a{
+	color: white;
+	font-size: 20px;
+}
+
+#weblify-elements-modal .weblify_content #fullimage a:hover{
+	text-decoration: none;
+}
+
+#weblify-elements-modal .weblify_content #fullimage .photographerLink img{
+	border-radius: 50%;
+	margin-right: 10px;
+}
+
+/* For Multiselect dropdown -- added by Khushal Gupta - this is not following the existing css pattern because, these classes are generated at runtime by Semantic UI*/
+#weblify-elements-modal .weblify_content .ui.fluid.dropdown{
+	bottom: 18px; 
+	left: 20px;
+}
+
+[data-tooltip]:before{
+	all: unset;
+	background: none !important;
+}
+
+#weblify-elements-modal .weblify_content .weblify_content_panel .AI-container{
+	padding: 10px;
+}
+
+#weblify-elements-modal .weblify_content .weblify_content_panel .AI-container .AI-color-palette{
+	display: grid;
+	width: 300px;
+	position: relative;
+}
+
+#weblify-elements-modal .weblify_content .weblify_content_panel .AI-container .AI-color-palette .AI-color-palette-pickers{
+	display: flex;
+	margin: auto;
+}
+
+#weblify-elements-modal .weblify_content .weblify_content_panel .AI-container .AI-color-palette .AI-color-palette-button{
+	margin: auto;
+}
+
+#weblify-elements-modal .weblify_content .weblify_content_panel .AI-container .AI-inputs{
+	margin-top: 30px;
+	width: 500px;
+}
+
+#weblify-elements-modal .weblify_content .weblify_content_panel .AI-container .AI-input{
+	margin-top:10px;
+	margin-bottom:10px;
+}
